@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maanta{
+    /* background-color: blue; */
+    
+    background-color: rgb(24, 24, 64);
+}
+.navbar{
+    display: flex;
+   /* padding: 20px; */
+    justify-content: space-around;
+    width: 100%;
+   
+    
+    
+}
+.log{
+    display: flex;
+    /* padding: 10px; */
+    margin-top: 20px;
+    gap: 15px;
+}
+.log h1{
+    color: orangered;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.log i{
+    font-size: 2rem;
+    color: orangered;
+}
+
+ul{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    list-style: none;
+    margin-left: 160px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    
+    justify-content: space-around;
+    padding-top: 5%;
+    
+}
+.main .reight img{
+    width: 350px;
+   
+    margin-top: -10px;   
+}
+.main .left{
+width: 35%;
+margin-top: 60px;
+}
+
+.main .left h6{
+    font-size: 1.3rem;
+    color: orangered;
+}
+.main .left h2{
+    color: white;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.main .left p{
+    line-height: 25px;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+.left #bt-view{
+    /* background-color: transparent; */
+    padding: 5px 20px;
+    border: none;
+    background-color: orangered;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
+.left .btn-hire{
+    background-color: transparent;
+    border: none;
+     background-color: orangered;
+     padding: 5px 15px;
+     margin-left: 8px;
+     border-radius: 10px;
+     font-size: 16px;
+     color: white;
+     margin-top: 25px;
+}
+
+.main .reight{
+    width: 30%;
+}
+.navbar #menu{
+    display: none;
+    /* color: brown;
+    padding-top: 10px; */
+}
+/* section1 */
+.menter{
+    display: flex;
+    margin-top: 5%;
+    padding: 0px 30px;
+    gap: 40px;
+   
+
+}
+.menter img{
+    width: 250px;
+    border: 3px solid brown;
+ 
+}
+.menter img{
+    width: 30%;
+}
+
+.mertership{
+width: 50%;
+}
+.mertership h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+span{
+    color: red;
+}
+.caalan{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.caalan h6{
+    font-size: 1em;
+
+}
+.mertership button{
+    background-color: orangered;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 390px) {
+    body{
+        background-color: white;
+    }
+   .main .left p{
+        color: black;
+    }
+    ul{
+        display: none;
+    }
+
+    .navbar{
+        /* padding: 6px 0px; */
+        width: 100%;
+        
+        
+        
+    }
+   
+     .navbar #menu{
+        display: block;
+        font-size: 2em;
+        padding-top: 6%;
+        color: brown;
+       }
+
+       .main{
+        display: block;
+        width: 100%;
+       }
+       .main .left{
+        width: 100%;
+        padding: 10px;
+       
+        padding: 0px 20px;
+       }
+       .main .left h2{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+       }
+       .main .left p{
+        padding: 0;
+        margin: 0;
+        width: 80%;
+       }
+      
+      .main .reight img{
+        margin-left: 20px;
+        margin-top: 40px;
+       }
+
+       .menter{
+        width: 100%;
+        display: block;
+        padding: 0;
+       }
+       .menter img{
+        width: 100%;
+        /* margin-left: 10%; */
+       }
+       .mertership{
+        width: 100%;
+        margin-left: 20px;
+        
+
+       }
+
+       .mertership h1,p{
+        margin: 0;
+        padding: 0;
+        
+       }
+       .caalan h6{
+        font-size: 1.4em;
+       }
+       .caalan #qooq{
+        font-size: 1.5em;
+       }
+
+    
+    
+}

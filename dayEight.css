@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display:  flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+
+}
+.logo i{
+    color: blue;
+    font-size: 2rem;
+}
+
+.header ul{
+    display: flex;
+    gap: 40px;
+    font-size: 1.8rem;
+    padding-top: 5px;
+    list-style: none;
+}
+#btn-sing{
+    background-color: transparent;
+    border: none;
+    font-size: 1.4rem;
+    margin-top: 8px;
+}
+.btn-free{
+    background-color: transparent;
+    padding: 8px 30px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    margin-left: 15px;
+}
+/* section tweo */
+
+.show-case{
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+.left-side{
+    width: 40%;
+
+}
+.left-side h1{
+    line-height: 40px;
+}
+.left-side span{
+    color:goldenrod;
+}
+.rigth-side{
+    width: 35%;
+    
+}
+.rigth-side img{
+    width: 450px;
+    border-radius: 20px;
+
+}
